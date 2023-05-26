@@ -10,6 +10,8 @@ setuptools.setup(
     description="A short description of your package",
     packages=setuptools.find_packages(),
     include_package_data=True,
-    install_requires=[
-    ],
+    package_data={
+        # If any package contains *.txt or *.rst files, include them:
+        '': ['*.json'],
+    },
 )
