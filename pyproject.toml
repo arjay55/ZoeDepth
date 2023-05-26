@@ -1,6 +1,14 @@
 [project]
-name = "mypackage"
-version = "0.0.1"
+name = "zoedepth"
+version = "0.5"
 dependencies = [
-
 ]
+
+[options]
+packages = find:
+
+[options.packages.find]  # (always `find` even if `find_namespace:` was used before)
+# This section is optional as well as each of the following options:
+where=src  # . by default
+include=zoedepth*  # * by default
+exclude=mypackage.tests*  # empty by default
