@@ -13,6 +13,6 @@ setuptools.setup(
     package_data={
         # If any package contains *.txt or *.rst files, include them:
         # 'zoedepth': ['models/zoedepth*.json'],
-        '': ['*.json'],
+        'zoedepth.models.zoedepth': ['*.json'],
     },
 )
