@@ -9,10 +9,6 @@ setuptools.setup(
     author="Bhat, Shariq Farooq and Birkl, Reiner and Wofk, Diana and Wonka, Peter and Müller, Matthias",
     description="A short description of your package",
     packages=setuptools.find_packages(),
-    include_package_data=True,
-    # install_requires=[
-    # ],
-    # package_dir={'zoedepth': 'zoedepth'},
-    # package_data={'zoedepth': ['models/zoedepth/*.json'],
-    #             },
+    install_requires=[
+    ],
 )
