@@ -11,7 +11,6 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
     ],
-    package_dir={'': 'zoedepth'},
     package_data={'zoedepth': ['models/zoedepth/*.json', 'models/zoedepth_nk/*.json'],
                 },
 )
