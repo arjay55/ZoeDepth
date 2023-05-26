@@ -5,7 +5,7 @@ setuptools.setup(
     version="0.5",
     author="Bhat, Shariq Farooq and Birkl, Reiner and Wofk, Diana and Wonka, Peter and Müller, Matthias",
     description="A short description of your package",
-    packages=setuptools.find_packages(exclude=['zoedepth']),
+    packages=setuptools.find_packages(include=['zoedepth']),
     install_requires=[
         ],
 )
