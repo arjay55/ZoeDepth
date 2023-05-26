@@ -11,7 +11,6 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
     ],
-    data_files=[
-        ('', ['hubconf.py']),
-    ],
+    package_data={'zoedepth': ['zoedepth/*.json'],
+                  'zoedepth': ['zoedepth_nk/*.json']},
 )
