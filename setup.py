@@ -1,7 +1,7 @@
 import setuptools
 from codecs import open
 
-exec(open('timm/version.py').read())
+exec(open('zoedepth/version.py').read())
 
 setuptools.setup(
     name="zoedepth",
